@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    /* background: url('assets/bg-pattern-footer-desktop.svg'), url('assets/bg-pattern-intro-right-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100vh;
+}
+.navbar-brand {
+    padding-left: 150px;
+    cursor: pointer;
+}
+#navbarSupportedContent {
+    padding-right: 150px;
+    letter-spacing: 1px;
+}
+.navbar-item {
+    padding-right: 25px;
+}
+a{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#button{
+    border: 2px solid black;
+    padding: 10px 25px;
+    background: white;
+}
+#button:hover {
+    background: black;
+    color: white;
+}
+.main {
+    background: hsl(256, 26%, 20%);
+    color: white;
+    height: 80%;
+}
+.img1 {
+    position: absolute;
+    right: 0;
+    float: right;
+} 
+.content {
+    padding: 100px 10px;
+    justify-content: center;
+    background: url('assets/bg-pattern-intro-right-desktop.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+}
+.hr {
+    border: 1px solid white;
+    width: 30%;
+    opacity: 0.5;
+}
+.row .first {
+    padding-left: 150px;
+}
+.main h1, .abt h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    padding-top: 50px;
+}
+.main p {
+    font-size: 1.1rem;
+    padding: 10px 0px 20px 0px;
+    opacity: 0.8;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.link{
+    color: white;
+    border: 2px solid white;
+    border-radius: none;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.link:hover {
+    background: white;
+    color: hsl(256, 26%, 20%);
+}
+.abt {
+    padding-left: 150px;
+}
+.service {
+    margin-top: 100px;
+}
+.service h2 {
+    font-family: 'DM Serif Display', serif;
+    padding-top: 50px;
+}
+.service .para{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 0px 20px 0px;
+}
+.banner {
+    padding: 150px;
+}
+.banner .row {
+    color: white;
+    background: hsl(256, 26%, 20%) url('assets/bg-pattern-how-we-work-desktop.svg');
+    background-repeat: no-repeat;
+    padding: 70px;
+    background-position: right;
+}
+.banner h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 58px;
+}
+.banner .part2 {
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.footer {
+    padding: 50px 150px;
+    background: hsl(0, 0%, 98%) url('assets/bg-pattern-footer-desktop.svg');
+    background-repeat: no-repeat;
+}
+.logos .icons{
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+.logos .icons:hover{
+    transform: scale(1.5);
+    background: black;
+}
+.logos {
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+}
+.links p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+ .links ul {
+    list-style-type: none;
+    padding-left: 0px;
+} 
+ul li{
+    margin-bottom: 0.5rem;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    opacity: 0.8;
+} 
+.links li a:hover {
+    border-bottom: 1px solid black;
+    opacity: 1;
+}
